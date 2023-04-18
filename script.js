@@ -159,7 +159,7 @@ $("#mybin").on('dblclick', function() {
 //Resume File
 $(document).on('dblclick', '#abtme', function() {
     $(` 
-        <p>This is About Me</p>
+        <p>Almost the best front end developer</p>
     `)
     .dialog({
         "title" : "About Me",
