@@ -1,0 +1,157 @@
+*{
+    font-family: "Segoe UI", Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: #eee;
+  }
+  
+input:focus {
+    outline: none;
+}
+
+#screen {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/wallpaper.jpg);
+    background-size: cover;
+}
+
+#footer {
+    display: flex;
+    width: 100%;
+    color: #FFFFFF;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 42px;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.15);
+    background-color: black;
+    opacity: 0.95;
+    z-index: 9998;
+}
+
+#footer > div {
+    
+}
+
+.icons {
+    width: 48px;
+    padding-top: 8px;
+    padding-bottom: 9px;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+}
+
+.icons:hover {
+    color: #429CE3;
+    background: #272727;
+}
+
+.taskSearch {
+    margin: auto auto;
+    text-align: left;
+    width: 331px;
+    height: 38px;
+    padding-left: 11px;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 15px;
+    background-color: #3F3F3F;
+    color: white;
+    border: 1px solid transparent;
+    resize: none;
+    opacity: 1.0;
+}
+
+.taskSearch:hover, .taskSearch:active {
+    background-color: #4C4C4C;
+}
+
+.taskSearch:focus {
+    background-color: white;
+    color: black;
+}
+
+.imaege-icons {
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.startIconFrame {
+    padding-top: 4px;
+}
+
+#folder {
+    background-image: url(./img/folder-icon.png);
+}
+
+#chrome {
+    background-image: url(./img/chrome-icon.png);
+}
+
+#teams {
+    background-image: url(./img/teams-icon.png);
+}
+
+#vscode {
+    background-image: url(./img/visualcode-icon.png);
+}
+
+.icon-name {
+    text-align: center;
+    font-size: 11px;
+    color: white;
+}
+
+#screen-icons {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+
+#screen-icons > div {
+    padding: 10px 0px 10px 0px;
+    text-align: -webkit-center;
+}
+
+#screen-icons > div:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.screenicon {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    text-align: center;
+    color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#bin {
+    background-image: url(./img/bin-icon.png);
+}
+
+#blender {
+    background-image: url(./img/blender-icon.png);
+}
+
+#file {
+    background-image: url(img/file-icon.png);
+}
+
+#pdf {
+    background-image: url(img/pdf-icon.png);
+}

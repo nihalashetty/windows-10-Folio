@@ -1,0 +1,67 @@
+.ui-dialog .ui-dialog-titlebar {
+    padding: 4px !important;
+    background-color: #FCD8CB !important;
+    border-bottom: 1px solid peru !important;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    background: none !important;
+    border: none !important;
+}
+
+.ui-dialog-titlebar-close {
+    background: none !important;
+    border: none !important;
+    top: -1px !important;
+}
+
+#mydoccontents {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#mydoccontents > div {
+    width: 64px;
+    padding: 14px;
+    text-align: -webkit-center;
+}
+
+#mydoccontents > div:hover {
+    background: rgba(150, 210, 247, 0.15);
+}
+
+#mydoccontents .icon-name {
+    color: black;
+}
+
+.ui-dialog .ui-dialog-content {
+    padding: 0px !important;
+}
+
+#dialog-static {
+    display: flex;
+    margin: 4px;
+}
+
+#dialog-static p {
+    font-size: 10px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 0.5px solid grey;
+    padding: 4px;
+}
+
+.search-bar.path {
+    flex-grow: 2;
+    margin-right: 5px;
+}
+
+.search-bar.search {
+    flex-grow: 0.5;
+    margin-right: 5px;
+}
+
+

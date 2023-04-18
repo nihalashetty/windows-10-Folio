@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Windows Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dialog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div id="screen">
+        <div id="screen-icons">
+            <div id="mybin">
+                <div class="screenicon" id="bin"></div>
+                <p class="icon-name">Recycle Bin</p>
+            </div>
+            <div id="mydoc">
+                <div class="screenicon" id="folder"></div>
+                <p class="icon-name">My documents</p>
+            </div>
+            <div>
+                <div class="screenicon" id="blender"></div>
+                <p class="icon-name">Blender 3.4</p>
+            </div>
+            <div id="abtme">
+                <div class="screenicon" id="file"></div>
+                <p class="icon-name">About Me</p>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="icons startIconFrame" id="startIconFrame" title="Start">
+                <i class="fa fa-windows"></i>
+            </div>
+            <div>
+                <input type="text" value="" class="taskSearch" id="taskSearch" placeholder="Search the web and Windows" style="z-index: 10;">
+            </div>
+            <div id="mydoc" class="icons">
+                <div class="imaege-icons" id="folder"></div>
+            </div>
+            <div class="icons">
+                <div class="imaege-icons" id="chrome"></div>
+            </div>
+            <div class="icons">
+                <div class="imaege-icons" id="teams"></div>
+            </div>
+            <div class="icons">
+                <div class="imaege-icons" id="vscode"></div>
+            </div>
+        </div>
+    </div>
+    <script src="jquery-ui-extended.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
